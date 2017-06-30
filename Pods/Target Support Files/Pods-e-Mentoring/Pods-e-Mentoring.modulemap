@@ -1,0 +1,6 @@
+framework module Pods_e_Mentoring {
+  umbrella header "Pods-e-Mentoring-umbrella.h"
+
+  export *
+  module * { export * }
+}

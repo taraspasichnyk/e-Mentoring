@@ -34,6 +34,7 @@ class ESwipeCardsController: UIViewController {
         UIImage(named: "kindgeek"),
         UIImage(named: "kindgeek")
     ]
+    
     let eleksUrl = URL(string: "https://eleks.com")!
     
     override func viewDidLoad() {

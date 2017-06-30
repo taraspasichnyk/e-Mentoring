@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		71B6C7591F066C1200F7FFD9 /* ECardOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71B6C7581F066C1200F7FFD9 /* ECardOverlayView.xib */; };
 		71D430841F06670D007264D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D430831F06670D007264D1 /* AppDelegate.swift */; };
-		71D430891F06670D007264D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D430871F06670D007264D1 /* Main.storyboard */; };
+		71D430891F06670D007264D1 /* Swiper.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D430871F06670D007264D1 /* Swiper.storyboard */; };
 		71D4308B1F06670D007264D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71D4308A1F06670D007264D1 /* Assets.xcassets */; };
 		71D4308E1F06670D007264D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D4308C1F06670D007264D1 /* LaunchScreen.storyboard */; };
 		71D430991F06670D007264D1 /* e_MentoringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D430981F06670D007264D1 /* e_MentoringTests.swift */; };
@@ -45,7 +45,7 @@
 		71B6C7581F066C1200F7FFD9 /* ECardOverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ECardOverlayView.xib; sourceTree = "<group>"; };
 		71D430801F06670D007264D1 /* e-Mentoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "e-Mentoring.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D430831F06670D007264D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		71D430881F06670D007264D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71D430881F06670D007264D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Swiper.storyboard; sourceTree = "<group>"; };
 		71D4308A1F06670D007264D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71D4308D1F06670D007264D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71D4308F1F06670D007264D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -116,6 +116,20 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
+		71B6C75A1F068B4400F7FFD9 /* User */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		71B6C75B1F068B5900F7FFD9 /* Skills */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Skills;
+			sourceTree = "<group>";
+		};
 		71D430771F06670D007264D1 = {
 			isa = PBXGroup;
 			children = (
@@ -141,9 +155,11 @@
 		71D430821F06670D007264D1 /* e-Mentoring */ = {
 			isa = PBXGroup;
 			children = (
+				71B6C75A1F068B4400F7FFD9 /* User */,
 				71B6C7551F066BBB00F7FFD9 /* Swiper */,
+				71B6C75B1F068B5900F7FFD9 /* Skills */,
 				71D430831F06670D007264D1 /* AppDelegate.swift */,
-				71D430871F06670D007264D1 /* Main.storyboard */,
+				71D430871F06670D007264D1 /* Swiper.storyboard */,
 				71D4308A1F06670D007264D1 /* Assets.xcassets */,
 				71D4308C1F06670D007264D1 /* LaunchScreen.storyboard */,
 				71D4308F1F06670D007264D1 /* Info.plist */,
@@ -314,7 +330,7 @@
 				71D4308E1F06670D007264D1 /* LaunchScreen.storyboard in Resources */,
 				71B6C7591F066C1200F7FFD9 /* ECardOverlayView.xib in Resources */,
 				71D4308B1F06670D007264D1 /* Assets.xcassets in Resources */,
-				71D430891F06670D007264D1 /* Main.storyboard in Resources */,
+				71D430891F06670D007264D1 /* Swiper.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,12 +530,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		71D430871F06670D007264D1 /* Main.storyboard */ = {
+		71D430871F06670D007264D1 /* Swiper.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				71D430881F06670D007264D1 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Swiper.storyboard;
 			sourceTree = "<group>";
 		};
 		71D4308C1F06670D007264D1 /* LaunchScreen.storyboard */ = {

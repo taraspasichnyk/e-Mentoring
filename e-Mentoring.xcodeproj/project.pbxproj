@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		71D430891F06670D007264D1 /* Swiper.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D430871F06670D007264D1 /* Swiper.storyboard */; };
-		71D4308B1F06670D007264D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71D4308A1F06670D007264D1 /* Assets.xcassets */; };
 		71D4308E1F06670D007264D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D4308C1F06670D007264D1 /* LaunchScreen.storyboard */; };
 		71D430991F06670D007264D1 /* e_MentoringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D430981F06670D007264D1 /* e_MentoringTests.swift */; };
 		71D430A41F06670D007264D1 /* e_MentoringUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D430A31F06670D007264D1 /* e_MentoringUITests.swift */; };
@@ -18,6 +17,11 @@
 		BF09F8671F06EF98005F5AED /* UIStoryboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF09F8661F06EF98005F5AED /* UIStoryboard+Extension.swift */; };
 		BF09F8691F06EFF0005F5AED /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF09F8681F06EFF0005F5AED /* Login.storyboard */; };
 		BF09F86B1F06F046005F5AED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF09F86A1F06F046005F5AED /* AppDelegate.swift */; };
+		BF09F86D1F06F170005F5AED /* README in Resources */ = {isa = PBXBuildFile; fileRef = BF09F86C1F06F170005F5AED /* README */; };
+		BF56ED5C1F06F7A1004FB1A3 /* ELoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56ED5B1F06F7A1004FB1A3 /* ELoginController.swift */; };
+		BF56ED5E1F06F7AD004FB1A3 /* ESignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56ED5D1F06F7AD004FB1A3 /* ESignUpController.swift */; };
+		BF7079CB1F06F39B0022EA0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF7079C91F06F39B0022EA0D /* Assets.xcassets */; };
+		BF7079D01F06F3B00022EA0D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF7079CF1F06F3B00022EA0D /* GoogleService-Info.plist */; };
 		D5F545D34FD1109652C73600 /* Pods_e_MentoringUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60019CF22EBAA4A902D41075 /* Pods_e_MentoringUITests.framework */; };
 		D6BB9FE8B4F4556B1C8A46A8 /* Pods_e_Mentoring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2182BFEB31FEDFFDE21F8485 /* Pods_e_Mentoring.framework */; };
 /* End PBXBuildFile section */
@@ -46,9 +50,7 @@
 		60019CF22EBAA4A902D41075 /* Pods_e_MentoringUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_e_MentoringUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D430801F06670D007264D1 /* e-Mentoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "e-Mentoring.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D430881F06670D007264D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Swiper.storyboard; sourceTree = "<group>"; };
-		71D4308A1F06670D007264D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		71D4308D1F06670D007264D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		71D4308F1F06670D007264D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		71D430941F06670D007264D1 /* e-MentoringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "e-MentoringTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D430981F06670D007264D1 /* e_MentoringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = e_MentoringTests.swift; sourceTree = "<group>"; };
 		71D4309A1F06670D007264D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,6 +64,12 @@
 		BF09F8661F06EF98005F5AED /* UIStoryboard+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extension.swift"; sourceTree = "<group>"; };
 		BF09F8681F06EFF0005F5AED /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		BF09F86A1F06F046005F5AED /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "e-Mentoring/AppDelegate.swift"; sourceTree = SOURCE_ROOT; };
+		BF09F86C1F06F170005F5AED /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		BF56ED5B1F06F7A1004FB1A3 /* ELoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ELoginController.swift; sourceTree = "<group>"; };
+		BF56ED5D1F06F7AD004FB1A3 /* ESignUpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESignUpController.swift; sourceTree = "<group>"; };
+		BF7079C91F06F39B0022EA0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "e-Mentoring/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+		BF7079CA1F06F39B0022EA0D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "e-Mentoring/Info.plist"; sourceTree = SOURCE_ROOT; };
+		BF7079CF1F06F3B00022EA0D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "e-Mentoring/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		C0B7AAAC595AAB47EB267397 /* Pods-e-Mentoring.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-Mentoring.debug.xcconfig"; path = "Pods/Target Support Files/Pods-e-Mentoring/Pods-e-Mentoring.debug.xcconfig"; sourceTree = "<group>"; };
 		DDACDE514F84DD5BC4CB1CF2 /* Pods-e-MentoringUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-MentoringUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-e-MentoringUITests/Pods-e-MentoringUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FDC64224BC18552CD7F79D3E /* Pods-e-MentoringTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-MentoringTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-e-MentoringTests/Pods-e-MentoringTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -127,6 +135,7 @@
 		71D430821F06670D007264D1 /* e-Mentoring */ = {
 			isa = PBXGroup;
 			children = (
+				BF09F86C1F06F170005F5AED /* README */,
 				BF09F85C1F06EE71005F5AED /* App */,
 				BF09F85D1F06EEF7005F5AED /* Authorization */,
 				BF09F8651F06EF54005F5AED /* Skills */,
@@ -206,9 +215,10 @@
 			isa = PBXGroup;
 			children = (
 				BF09F86A1F06F046005F5AED /* AppDelegate.swift */,
-				71D4308F1F06670D007264D1 /* Info.plist */,
-				71D4308A1F06670D007264D1 /* Assets.xcassets */,
 				71D4308C1F06670D007264D1 /* LaunchScreen.storyboard */,
+				BF7079C91F06F39B0022EA0D /* Assets.xcassets */,
+				BF7079CA1F06F39B0022EA0D /* Info.plist */,
+				BF7079CF1F06F3B00022EA0D /* GoogleService-Info.plist */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -216,6 +226,7 @@
 		BF09F85D1F06EEF7005F5AED /* Authorization */ = {
 			isa = PBXGroup;
 			children = (
+				BF7079D11F06F4970022EA0D /* Controllers */,
 				BF09F8681F06EFF0005F5AED /* Login.storyboard */,
 			);
 			path = Authorization;
@@ -252,6 +263,15 @@
 			children = (
 			);
 			path = Skills;
+			sourceTree = "<group>";
+		};
+		BF7079D11F06F4970022EA0D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BF56ED5B1F06F7A1004FB1A3 /* ELoginController.swift */,
+				BF56ED5D1F06F7AD004FB1A3 /* ESignUpController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -373,10 +393,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF09F86D1F06F170005F5AED /* README in Resources */,
+				BF7079D01F06F3B00022EA0D /* GoogleService-Info.plist in Resources */,
 				71D4308E1F06670D007264D1 /* LaunchScreen.storyboard in Resources */,
 				BF09F8641F06EF48005F5AED /* ECardOverlayView.xib in Resources */,
-				71D4308B1F06670D007264D1 /* Assets.xcassets in Resources */,
 				BF09F8691F06EFF0005F5AED /* Login.storyboard in Resources */,
+				BF7079CB1F06F39B0022EA0D /* Assets.xcassets in Resources */,
 				71D430891F06670D007264D1 /* Swiper.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,7 +447,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		795ED58C9BBDB54CD86D6854 /* [CP] Check Pods Manifest.lock */ = {
@@ -440,7 +462,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		7CF716B2E23B7AA89FE6207C /* [CP] Embed Pods Frameworks */ = {
@@ -500,7 +522,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		EAD4BCCB637DFEB46290F9AF /* [CP] Copy Pods Resources */ = {
@@ -540,9 +562,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF56ED5E1F06F7AD004FB1A3 /* ESignUpController.swift in Sources */,
 				BF09F86B1F06F046005F5AED /* AppDelegate.swift in Sources */,
 				BF09F8631F06EF48005F5AED /* ESwipeCardsController.swift in Sources */,
 				BF09F8671F06EF98005F5AED /* UIStoryboard+Extension.swift in Sources */,
+				BF56ED5C1F06F7A1004FB1A3 /* ELoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -699,6 +723,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M96K5GV7MA;
 				INFOPLIST_FILE = "e-Mentoring/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "taraspasichnyk.e-Mentoring";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -713,6 +738,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M96K5GV7MA;
 				INFOPLIST_FILE = "e-Mentoring/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "taraspasichnyk.e-Mentoring";
 				PRODUCT_NAME = "$(TARGET_NAME)";

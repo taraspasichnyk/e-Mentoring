@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		71B6C7591F066C1200F7FFD9 /* ECardOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71B6C7581F066C1200F7FFD9 /* ECardOverlayView.xib */; };
-		71D430841F06670D007264D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D430831F06670D007264D1 /* AppDelegate.swift */; };
 		71D430891F06670D007264D1 /* Swiper.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D430871F06670D007264D1 /* Swiper.storyboard */; };
 		71D4308B1F06670D007264D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71D4308A1F06670D007264D1 /* Assets.xcassets */; };
 		71D4308E1F06670D007264D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D4308C1F06670D007264D1 /* LaunchScreen.storyboard */; };
 		71D430991F06670D007264D1 /* e_MentoringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D430981F06670D007264D1 /* e_MentoringTests.swift */; };
 		71D430A41F06670D007264D1 /* e_MentoringUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D430A31F06670D007264D1 /* e_MentoringUITests.swift */; };
-		71D430B21F066761007264D1 /* ESwipeCardsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D430B11F066761007264D1 /* ESwipeCardsController.swift */; };
 		749ADBD9A28F832C6EF2099B /* Pods_e_MentoringTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 245F5B9026A48CC8649BC5CC /* Pods_e_MentoringTests.framework */; };
+		BF09F8631F06EF48005F5AED /* ESwipeCardsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF09F8601F06EF48005F5AED /* ESwipeCardsController.swift */; };
+		BF09F8641F06EF48005F5AED /* ECardOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF09F8621F06EF48005F5AED /* ECardOverlayView.xib */; };
+		BF09F8671F06EF98005F5AED /* UIStoryboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF09F8661F06EF98005F5AED /* UIStoryboard+Extension.swift */; };
+		BF09F8691F06EFF0005F5AED /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF09F8681F06EFF0005F5AED /* Login.storyboard */; };
+		BF09F86B1F06F046005F5AED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF09F86A1F06F046005F5AED /* AppDelegate.swift */; };
 		D5F545D34FD1109652C73600 /* Pods_e_MentoringUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60019CF22EBAA4A902D41075 /* Pods_e_MentoringUITests.framework */; };
 		D6BB9FE8B4F4556B1C8A46A8 /* Pods_e_Mentoring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2182BFEB31FEDFFDE21F8485 /* Pods_e_Mentoring.framework */; };
 /* End PBXBuildFile section */
@@ -42,22 +44,24 @@
 		2182BFEB31FEDFFDE21F8485 /* Pods_e_Mentoring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_e_Mentoring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		245F5B9026A48CC8649BC5CC /* Pods_e_MentoringTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_e_MentoringTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60019CF22EBAA4A902D41075 /* Pods_e_MentoringUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_e_MentoringUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		71B6C7581F066C1200F7FFD9 /* ECardOverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ECardOverlayView.xib; sourceTree = "<group>"; };
 		71D430801F06670D007264D1 /* e-Mentoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "e-Mentoring.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		71D430831F06670D007264D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71D430881F06670D007264D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Swiper.storyboard; sourceTree = "<group>"; };
-		71D4308A1F06670D007264D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71D4308A1F06670D007264D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		71D4308D1F06670D007264D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		71D4308F1F06670D007264D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71D4308F1F06670D007264D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		71D430941F06670D007264D1 /* e-MentoringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "e-MentoringTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D430981F06670D007264D1 /* e_MentoringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = e_MentoringTests.swift; sourceTree = "<group>"; };
 		71D4309A1F06670D007264D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71D4309F1F06670D007264D1 /* e-MentoringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "e-MentoringUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D430A31F06670D007264D1 /* e_MentoringUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = e_MentoringUITests.swift; sourceTree = "<group>"; };
 		71D430A51F06670D007264D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71D430B11F066761007264D1 /* ESwipeCardsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESwipeCardsController.swift; sourceTree = "<group>"; };
 		9503B3654F3C9B480EBD2127 /* Pods-e-MentoringUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-MentoringUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-e-MentoringUITests/Pods-e-MentoringUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B008F12DB0D88441ADAA2E4A /* Pods-e-MentoringTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-MentoringTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-e-MentoringTests/Pods-e-MentoringTests.release.xcconfig"; sourceTree = "<group>"; };
+		BF09F8601F06EF48005F5AED /* ESwipeCardsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESwipeCardsController.swift; sourceTree = "<group>"; };
+		BF09F8621F06EF48005F5AED /* ECardOverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ECardOverlayView.xib; sourceTree = "<group>"; };
+		BF09F8661F06EF98005F5AED /* UIStoryboard+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extension.swift"; sourceTree = "<group>"; };
+		BF09F8681F06EFF0005F5AED /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		BF09F86A1F06F046005F5AED /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "e-Mentoring/AppDelegate.swift"; sourceTree = SOURCE_ROOT; };
 		C0B7AAAC595AAB47EB267397 /* Pods-e-Mentoring.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-Mentoring.debug.xcconfig"; path = "Pods/Target Support Files/Pods-e-Mentoring/Pods-e-Mentoring.debug.xcconfig"; sourceTree = "<group>"; };
 		DDACDE514F84DD5BC4CB1CF2 /* Pods-e-MentoringUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-MentoringUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-e-MentoringUITests/Pods-e-MentoringUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FDC64224BC18552CD7F79D3E /* Pods-e-MentoringTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-MentoringTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-e-MentoringTests/Pods-e-MentoringTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -91,43 +95,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		71B6C7551F066BBB00F7FFD9 /* Swiper */ = {
-			isa = PBXGroup;
-			children = (
-				71B6C7561F066BD000F7FFD9 /* Controllers */,
-				71B6C7571F066BE200F7FFD9 /* Views */,
-			);
-			name = Swiper;
-			sourceTree = "<group>";
-		};
-		71B6C7561F066BD000F7FFD9 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				71D430B11F066761007264D1 /* ESwipeCardsController.swift */,
-			);
-			name = Controllers;
-			sourceTree = "<group>";
-		};
-		71B6C7571F066BE200F7FFD9 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				71B6C7581F066C1200F7FFD9 /* ECardOverlayView.xib */,
-			);
-			name = Views;
-			sourceTree = "<group>";
-		};
 		71B6C75A1F068B4400F7FFD9 /* User */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = User;
-			sourceTree = "<group>";
-		};
-		71B6C75B1F068B5900F7FFD9 /* Skills */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Skills;
 			sourceTree = "<group>";
 		};
 		71D430771F06670D007264D1 = {
@@ -155,14 +127,12 @@
 		71D430821F06670D007264D1 /* e-Mentoring */ = {
 			isa = PBXGroup;
 			children = (
+				BF09F85C1F06EE71005F5AED /* App */,
+				BF09F85D1F06EEF7005F5AED /* Authorization */,
+				BF09F8651F06EF54005F5AED /* Skills */,
 				71B6C75A1F068B4400F7FFD9 /* User */,
-				71B6C7551F066BBB00F7FFD9 /* Swiper */,
-				71B6C75B1F068B5900F7FFD9 /* Skills */,
-				71D430831F06670D007264D1 /* AppDelegate.swift */,
-				71D430871F06670D007264D1 /* Swiper.storyboard */,
-				71D4308A1F06670D007264D1 /* Assets.xcassets */,
-				71D4308C1F06670D007264D1 /* LaunchScreen.storyboard */,
-				71D4308F1F06670D007264D1 /* Info.plist */,
+				BF09F85E1F06EF48005F5AED /* Swiper */,
+				BF09F8591F06EE63005F5AED /* Extentions */,
 			);
 			path = "e-Mentoring";
 			sourceTree = "<group>";
@@ -206,6 +176,82 @@
 				60019CF22EBAA4A902D41075 /* Pods_e_MentoringUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF09F8591F06EE63005F5AED /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				BF09F85A1F06EE63005F5AED /* Foundation */,
+				BF09F85B1F06EE63005F5AED /* UIKit */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		BF09F85A1F06EE63005F5AED /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		BF09F85B1F06EE63005F5AED /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				BF09F8661F06EF98005F5AED /* UIStoryboard+Extension.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		BF09F85C1F06EE71005F5AED /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BF09F86A1F06F046005F5AED /* AppDelegate.swift */,
+				71D4308F1F06670D007264D1 /* Info.plist */,
+				71D4308A1F06670D007264D1 /* Assets.xcassets */,
+				71D4308C1F06670D007264D1 /* LaunchScreen.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BF09F85D1F06EEF7005F5AED /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				BF09F8681F06EFF0005F5AED /* Login.storyboard */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		BF09F85E1F06EF48005F5AED /* Swiper */ = {
+			isa = PBXGroup;
+			children = (
+				BF09F85F1F06EF48005F5AED /* Controllers */,
+				BF09F8611F06EF48005F5AED /* Views */,
+				71D430871F06670D007264D1 /* Swiper.storyboard */,
+			);
+			path = Swiper;
+			sourceTree = "<group>";
+		};
+		BF09F85F1F06EF48005F5AED /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BF09F8601F06EF48005F5AED /* ESwipeCardsController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BF09F8611F06EF48005F5AED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF09F8621F06EF48005F5AED /* ECardOverlayView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BF09F8651F06EF54005F5AED /* Skills */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Skills;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,8 +374,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				71D4308E1F06670D007264D1 /* LaunchScreen.storyboard in Resources */,
-				71B6C7591F066C1200F7FFD9 /* ECardOverlayView.xib in Resources */,
+				BF09F8641F06EF48005F5AED /* ECardOverlayView.xib in Resources */,
 				71D4308B1F06670D007264D1 /* Assets.xcassets in Resources */,
+				BF09F8691F06EFF0005F5AED /* Login.storyboard in Resources */,
 				71D430891F06670D007264D1 /* Swiper.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -493,8 +540,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71D430841F06670D007264D1 /* AppDelegate.swift in Sources */,
-				71D430B21F066761007264D1 /* ESwipeCardsController.swift in Sources */,
+				BF09F86B1F06F046005F5AED /* AppDelegate.swift in Sources */,
+				BF09F8631F06EF48005F5AED /* ESwipeCardsController.swift in Sources */,
+				BF09F8671F06EF98005F5AED /* UIStoryboard+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,6 +584,7 @@
 				71D430881F06670D007264D1 /* Base */,
 			);
 			name = Swiper.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		71D4308C1F06670D007264D1 /* LaunchScreen.storyboard */ = {
@@ -544,6 +593,7 @@
 				71D4308D1F06670D007264D1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
